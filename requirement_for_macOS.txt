@@ -1,0 +1,13 @@
+numpy==1.23.5
+anndata==0.10.6
+pandas==2.1.4
+matplotlib==3.6.3
+scanpy==1.9.6
+rpy2==3.5.16
+seaborn==0.13.2
+networkx==3.1
+tqdm==4.66.5
+torch==2.4.0
+torch-geometric==2.5.3
+torch-cluster==1.6.3
+torch-scatter==2.1.2

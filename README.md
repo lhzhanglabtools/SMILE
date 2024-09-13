@@ -53,9 +53,7 @@ python setup.py install
 
 Three step-by-step tutorials are included in the `Tutorial` folder and https://smile.readthedocs.io/en/latest/ to show how to use SMILE. 
 
-- Tutorial 1: Integrating simulation data
-- Tutorial 2: Integrating DLPFC slices 
-- Tutorial 3: Integrating SRT of healthy and psoriatic skin 
+- Tutorial: Integrating simulation data
 
 ## Support
 

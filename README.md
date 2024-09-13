@@ -1,6 +1,6 @@
 # SMILE
 
-![image-20221221161146872](SMILE_Overview.png)
+#![image-20221221161146872](SMILE_Overview.png)
 
 ## Overview
 

@@ -1,7 +1,5 @@
 # SMILE
 
-#![image-20221221161146872](SMILE_Overview.png)
-
 ## Overview
 
 SMILE is designed for alignment and integration of spatially resolved transcriptomics data.

@@ -7,7 +7,7 @@ SMILE is designed for multiscale dissection of spatial heterogeneity by integrat
 
 ## Tutorial
 
-- [Tutorial: Integrating simulation data]()
+- [Tutorial: Integrating simulation data](https://github.com/lhzhanglabtools/SMILE/blob/main/Tutorial/run_SMILE_on_simulation_data.ipynb)
 
 ## Support
 

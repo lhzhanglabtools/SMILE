@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/stSMILE.egg-info/PKG-INFO
+src/stSMILE.egg-info/SOURCES.txt
+src/stSMILE.egg-info/dependency_links.txt
+src/stSMILE.egg-info/top_level.txt

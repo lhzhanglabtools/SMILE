@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: stSMILE
+Version: 0.0.1
+Summary: SMILE is designed for multiscale dissection of spatial heterogeneity by integrating multi-slice spatial and single-cell transcriptomics.
+Author-email: Lihua Zhang <zhanglh@whu.edu.cn>
+Project-URL: Homepage, https://github.com/lhzhanglabtools/SMILE
+Project-URL: Issues, https://github.com/lhzhanglabtools/SMILE/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SMILE
+
+## Overview
+
+SMILE is designed for multiscale dissection of spatial heterogeneity by integrating multi-slice spatial and single-cell transcriptomics.
+
+
+## Tutorial
+
+- [Tutorial: Integrating simulation data](https://github.com/lhzhanglabtools/SMILE/blob/main/Tutorial/run_SMILE_on_simulation_data.ipynb)
+
+## Support
+
+If you have any questions, please feel free to contact us [zhanglh@whu.edu.cn](mailto:zhanglh@whu.edu.cn). 
+
+

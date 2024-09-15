@@ -1,0 +1,18 @@
+[project]
+name = "stSMILE"
+version = '0.0.1'
+authors = [
+  { name="Lihua Zhang", email="zhanglh@whu.edu.cn" },
+]
+description = "SMILE is designed for multiscale dissection of spatial heterogeneity by integrating multi-slice spatial and single-cell transcriptomics."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/lhzhanglabtools/SMILE"
+Issues = "https://github.com/lhzhanglabtools/SMILE/issues"

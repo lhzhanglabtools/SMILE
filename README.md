@@ -22,7 +22,7 @@ conda activate stsmile_env
 Install from source:
 ```bash                                          
 git clone https://github.com/lhzhanglabtools/SMILE.git
-cd SMILE
+cd SMILE-main
 python setup.py build
 python setup.py.install
 ```

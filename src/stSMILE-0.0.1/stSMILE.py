@@ -458,14 +458,38 @@ def SMILE(adata_l, tag_l, section_ids, multiscale, n_clusters_l, in_features, fe
         adata_l: the adata list 
         tag_l: the data type list
         section_ids: the name of each slice
-        multiscale: logisctical True of False
+        multiscale: logisctical True or False
+        n_clusters_l: the list of cluster numbers for slices
         in_features: the input feature dimension used in the model
+        feature_method: string about the method (default: 'GCNConv')
         hidden_features: the hidden dimension used in the model (defalut: 512)
         out_features: the dimesion of latent embeddings (default: 50)
-        label_source: the label information of source data (can combine with adata_l)
-        spatial_coords_l: the list of spatial coordinates (can combine with adata_l)
-        use_rep: the method used for computing mnn pairs
-        label_name: the column in adata, which is used to check the accuracy (can combine with adata_l)
+        iter_comb: the combinations of slices (default: None)
+        anchors_all: logisctical True or False, whether use all anchors (default: True)
+        use_rep_anchor: the space used for identifying anchors (default: 'embedding')
+        alpha: parameter to control the weight of graph contrastive loss
+        beta: parameter to control the weight of alignment
+        lamb: parameter to control the weight of classifier for spatial transcriptomics data of certain slice in semi-supervised learning 
+        theta: parameter to control the weight of spatial similarity constraint on the MLP classifier for single celld data
+        gamma: parameter to control the weight of reconstructing spot's expression with single cell expression and spot representation
+        edge_weights: fused weights of spatial location, expression levels and image features. In SMILE model, we just focused on the spatial location, therefore the default one is [1,0.1,0.1]
+        add_topology: logisctical True or False. In SMILE model, default is True
+        add_feature: logisctical True or False. In SMILE model, default is False
+        add_image: logisctical True or False. In SMILE model, default is False
+        add_sc: logisctical True or False. In SMILE model, default is True
+        spatial_regularization_strength: parameter for spatial similarity constraint, default is 0.9.
+        lr: learning rate, default: 1e-3
+        subepochs: inner epochs for extracting features, default: 200
+        epochs: outer epochs for SMILE, default: 400
+        class_rep: data used for clustering, default: 'representation'
+        label_name: the column in adata, which is used to check the accuracy
+        anchor_size: the number of anchors used for aligning differnt slice, default: 5000
+        agg_neigh: the number of spots used for aggregating when the parameter use_rep_anchor is set to 'Agg'
+        mnn_neigh: the number of spots used for identifying mnns
+        random_seed: random seed when implment SMILE
+        gpu:logisctical 0 or 1. default: 0.
+        regularization_acceleration: logisctical True or False, whether to accelate the spatial similarity constraint (default: True)
+        edge_subset_sz: the number of selected anchors for accelarating spatial similarity constraint (default: 1000000)
         
     '''
     

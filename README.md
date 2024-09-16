@@ -21,7 +21,7 @@ conda activate stsmile_env
 
 Install the SMILE package using `pip` by:
 ```bash                                          
-python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps stSMILE
+pip install stSMILE
 ```
 
 ## Tutorial

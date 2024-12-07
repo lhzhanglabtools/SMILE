@@ -6,7 +6,7 @@ SMILE is designed for multiscale dissection of spatial heterogeneity by integrat
 
 ## Installation
 ### 1. Prepare environment
-To install SpaceFlow, we recommend using the [Anaconda Python Distribution](https://anaconda.org/) and creating an isolated environment, so that the SpaceFlow and dependencies don't conflict or interfere with other packages or applications. To create the environment, run the following script in command line:
+To install SMILE, we recommend using the [Anaconda Python Distribution](https://anaconda.org/) and creating an isolated environment, so that the SMILE and dependencies don't conflict or interfere with other packages or applications. To create the environment, run the following script in command line:
 
 ```bash
 conda create -n stsmile_env python=3.12

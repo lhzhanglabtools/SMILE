@@ -1,6 +1,6 @@
 # SMILE
 
-![SMILE_Overview](https://github.com/lhzhanglabtools/SMILE/SMILE_overview.png)
+![SMILE_Overview](https://github.com/lhzhanglabtools/SMILE/blob/main/SMILE_overview.png)
 
 ## Overview
 

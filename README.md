@@ -28,10 +28,14 @@ conda activate env_SMILE
 ```
 
 Install all the required packages.
+```
+conda install pyg
+conda install conda-forge::pytorch_scatter
+```
+The torch-geometric library is required, please see the installation steps in https://github.com/pyg-team/pytorch_geometric#installation
 
 The use of the mclust algorithm requires the rpy2 package (Python) and the mclust package (R). See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for detail.
 
-The torch-geometric library is also required, please see the installation steps in https://github.com/pyg-team/pytorch_geometric#installation
 
 ```
 pip install -r requirements.txt

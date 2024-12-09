@@ -41,7 +41,11 @@ The use of the mclust algorithm requires the rpy2 package (Python) and the mclus
 pip install -r requirements.txt
 ```
 
-Install SMILE.
+Install SMILE. We provide two optional strategies to install SMILE.
+```
+pip install stSMILE
+```
+Or
 
 ```
 python setup.py build

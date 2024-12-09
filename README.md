@@ -14,7 +14,7 @@ First clone the repository.
 
 ```
 git clone https://github.com/lhzhanglabtools/SMILE.git
-cd SMILE
+cd SMILE-main
 ```
 
 It's recommended to create a separate conda environment for running SMILE:

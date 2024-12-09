@@ -33,7 +33,6 @@ conda install pyg
 conda install conda-forge::pytorch_scatter
 conda install conda-forge::pytorch_cluster
 conda install conda-forge::pytorch_sparse
-
 ```
 The torch-geometric library is required, please see the installation steps in https://github.com/pyg-team/pytorch_geometric#installation
 

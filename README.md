@@ -58,12 +58,12 @@ python setup.py install
 
 Three step-by-step tutorials are included in the `Tutorial` folder to show how to use  SMILE. 
 
-- [Tutorial 1: Running SIMLE on simulation data]()
-- [Tutorial 2: Running SMILE on DLPFC slices]()
-- [Tutorial 2 plus: Running semi-SMILE on DLPFC slices]()
-- [Tutorial 3: Running SMILE on anterior and posterior sections of mouse brain]()
-- [Tutorial 4: Running SMILE on normal skin and psoriasis diseased skin]()
-- [Tutorial 5: Running SMILE on SRT data from Stereo-seq and Slide-seqV2 platforms]()
+- [Tutorial 1: Running SIMLE on simulation data](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_simulation_data.ipynb)
+- [Tutorial 2: Running SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_DLPFC_data.ipynb)
+- [Tutorial 2 plus: Running semi-SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_semi_SMILE_on_DLPFC_data.ipynb)
+- [Tutorial 3: Running SMILE on anterior and posterior sections of mouse brain](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_Mouse_Brain_data.ipynb)
+- [Tutorial 4: Running SMILE on normal skin and psoriasis diseased skin](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_skin_data.ipynb)
+- [Tutorial 5: Running SMILE on SRT data from Stereo-seq and Slide-seqV2 platforms](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_MOB_data.ipynb)
 
 ## Support
 

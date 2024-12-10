@@ -58,8 +58,12 @@ python setup.py install
 
 Three step-by-step tutorials are included in the `Tutorial` folder to show how to use  SMILE. 
 
-- Tutorial 1: Integrating simulation data
-- Tutorial 2: Integrating DLPFC slices 
+- [Tutorial 1: Running SIMLE on simulation data]()
+- [Tutorial 2: Running SMILE on DLPFC slices]()
+- [Tutorial 2 plus: Running semi-SMILE on DLPFC slices]()
+- [Tutorial 3: Running SMILE on anterior and posterior sections of mouse brain]()
+- [Tutorial 4: Running SMILE on normal skin and psoriasis diseased skin]()
+- [Tutorial 5: Running SMILE on SRT data from Stereo-seq and Slide-seqV2 platforms]()
 
 ## Support
 

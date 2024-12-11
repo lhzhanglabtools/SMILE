@@ -42,14 +42,15 @@ pip install -r requirements.txt
 ```
 
 Install SMILE. We provide two optional strategies to install SMILE.
-```
-pip install stSMILE
-```
-Or
 
 ```
 python setup.py build
 python setup.py install
+```
+OR
+
+```
+pip install stSMILE
 ```
 
 
@@ -60,7 +61,8 @@ Three step-by-step tutorials are included in the `Tutorial` folder to show how t
 
 - [Tutorial 1: Running SIMLE on simulation data](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_simulation_data.ipynb)
 - [Tutorial 2: Running SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_DLPFC_data.ipynb)
-- [Tutorial 2 plus: Running semi-SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_semi_SMILE_on_DLPFC_data.ipynb)
+- [Tutorial 2a: Plotting the deconvolution result of SMILE on DLPFC]()
+- [Tutorial 2b: Running semi-SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_semi_SMILE_on_DLPFC_data.ipynb)
 - [Tutorial 3: Running SMILE on anterior and posterior sections of mouse brain](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_Mouse_Brain_data.ipynb)
 - [Tutorial 4: Running SMILE on normal skin and psoriasis diseased skin](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_skin_data.ipynb)
 - [Tutorial 5: Running SMILE on SRT data from Stereo-seq and Slide-seqV2 platforms](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_MOB_data.ipynb)

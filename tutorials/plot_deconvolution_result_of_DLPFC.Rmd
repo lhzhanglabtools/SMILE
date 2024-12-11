@@ -1,0 +1,64 @@
+---
+title: 'Demo of the performance of SMILE in deconvoluting multiple spatial transcriptomics data'
+author: "Lihua Zhang"
+date: "`r format(Sys.time(), '%d/%m/%y')`"
+output:
+  html_document: default
+mainfont: Arial
+vignette: |
+  %\VignetteIndexEntry{Plotting deconvolution results} %\VignetteEngine{knitr::rmarkdown} %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  root.dir = './'
+)
+```
+
+
+## Load the required libraries
+```{r message=FALSE,warning=FALSE}
+library(scatterpie)
+library(RColorBrewer)
+library(grDevices)
+source("/Users/lihuazhang/Documents/SMILE-main/R_visualization/spatial_function.R")
+options(stringsAsFactors = FALSE)
+```
+
+## load the deconvoluted results of SMILE
+```{r, message= FALSE, warning=FALSE}
+file_path <- "/Users/lihuazhang/Documents/SMILE-main/results/" # change path to results of SMILE
+dev1 <- read.table(paste0(file_path,'DLPFC_SMILE_dev_151674.csv'),sep = '\t',header = T, row.names = 1)
+dev2 <- read.table(paste0(file_path,'DLPFC_SMILE_dev_151675.csv'),sep = '\t',header = T, row.names = 1)
+spa_index1 <- read.table(paste0(file_path,'DLPFC_spatial_151674.csv'),sep = '\t',header = T, row.names = 1)
+spa_index2 <- read.table(paste0(file_path,'DLPFC_spatial_151675.csv'),sep = '\t',header = T, row.names = 1)
+names <- rownames(dev1)
+names <- data.frame(names)
+colnames(names) <- 'cluster'
+rownames(names) <- names$cluster
+rownames(spa_index1) <- colnames(dev1)
+rownames(spa_index2) <- colnames(dev2)
+```
+
+## plot the pie chart 
+```{r}
+dev_map1 <- mapCluster(dev1, meta = names, cluster = 'cluster',min_cut = 0.2,  balance = F) # min_cut = 0, 
+p1 <- stClusterPie(ot_map = dev_map1, coord = spa_index1, pie_scale = 0.8)
+p1
+dev_map2 <- mapCluster(dev2, meta = names, cluster = 'cluster',min_cut = 0.2,  balance = F) # min_cut = 0, 
+p2 <- stClusterPie(ot_map = dev_map2, coord = spa_index2, pie_scale = 0.8)
+p2
+```
+
+# plot the deconvoluted result of each cell type
+```{r,message=FALSE,warning=FALSE}
+clusters <- unique(colnames(dev_map1))
+clusters_new <- gsub("/","_",clusters)
+j <- 1
+pj <- stClusterExp(ot_map = dev_map1,coord = spa_index1, cluster = clusters[j], cut = 0, scale.size = c(0.1,2))
+  cowplot::save_plot(filename = paste0(file_path,'/DLPFC_SMILE_dev_151674_',sprintf('%s.pdf',clusters_new[j])), plot = pj, base_width = 5, base_height = 3)
+pj
+```
+

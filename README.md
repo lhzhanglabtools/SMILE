@@ -61,7 +61,7 @@ Three step-by-step tutorials are included in the `Tutorial` folder to show how t
 
 - [Tutorial 1: Running SIMLE on simulation data](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_simulation_data.ipynb)
 - [Tutorial 2: Running SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_DLPFC_data.ipynb)
-- [Tutorial 2a: Plotting the deconvolution result of SMILE on DLPFC](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/plot_deconvolution_result_of_DLPFC.Rmd)
+- [Tutorial 2a: Plotting the deconvolution result of SMILE on DLPFC](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/plot_deconvolution_result_of_DLPFC.html)
 - [Tutorial 2b: Running semi-SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_semi_SMILE_on_DLPFC_data.ipynb)
 - [Tutorial 3: Running SMILE on anterior and posterior sections of mouse brain](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_Mouse_Brain_data.ipynb)
 - [Tutorial 4: Running SMILE on normal skin and psoriasis diseased skin](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_skin_data.ipynb)

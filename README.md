@@ -57,7 +57,7 @@ pip install stSMILE
 
 ## Tutorials
 
-Seven step-by-step tutorials are included in the `Tutorial` folder Or https://smile-tutorials.readthedocs.io/en/latest/ to show how to use  SMILE.
+Seven step-by-step tutorials are included in the `Tutorial` folder OR https://smile-tutorials.readthedocs.io/en/latest/ to show how to use  SMILE.
 
 - [Tutorial 1: Running SIMLE on simulation data](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_simulation_data.ipynb)
 - [Tutorial 2: Running SMILE on DLPFC slices](https://github.com/lhzhanglabtools/SMILE/blob/main/tutorials/run_SMILE_on_DLPFC_data.ipynb)
